@@ -1,0 +1,45 @@
+color: black;
+  text-transform: uppercase;
+  border-radius: 15px;
+}
+
+.primary img{
+  border-radius: 12px;
+  height: 100%;
+  width: 100%;
+
+}
+.primary div{
+  border-radius: 12px;
+  height: 100%;
+
+}
+.secondary{
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+
+
+.secondary button{
+  background: var(--fourth);
+  border-radius:12px ;
+  margin-top: 2rem;
+    padding:2rem;
+  border: none;
+}
+
+.secondary p{
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: 'Poppins',sans-serif;
+}
+
+.secondary button:hover{
+  scale: 1.05;
+  cursor: pointer;
+  border: 1px solid black;
+}
